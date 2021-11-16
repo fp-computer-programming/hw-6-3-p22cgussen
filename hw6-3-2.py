@@ -7,6 +7,6 @@ sort1 = list1.copy()
 sort1.sort()
 
 if sort1 == list1:
-    print("Your list is sorted.")
+    print("Your list (" + numbers + ") is sorted.")
 else:
     print("Your list is not sorted.")

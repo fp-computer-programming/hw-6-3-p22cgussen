@@ -9,4 +9,4 @@ sort1.sort()
 start = sort1[4:]
 
 sum = int(start[0]) + int(start[1]) + int(start[2]) + int(start[3]) + int(start[4])
-print(sum)
+print("The sum of your input is " + str(sum) + ".")

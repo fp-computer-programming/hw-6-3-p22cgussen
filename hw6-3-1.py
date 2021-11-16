@@ -6,7 +6,12 @@ word2 = input("Input another word: ")
 list1 = list(word1)
 list2 = list(word2)
 
-if list1.sort() == list2.sort():
-    print("Those words are anagrams")
+sort1 = list1.copy()
+sort2 = list2.copy()
+sort1.sort()
+sort2.sort()
+
+if sort1 == sort2:
+    print("The words " + word1 + ' and ' + word2 + " are anagrams.")
 else:
-    print("Those words are not anagrams")
+    print("The words " + word1 + ' and ' + word2 + " are not anagrams.")
